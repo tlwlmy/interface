@@ -110,10 +110,6 @@ response
 ```
 {
   c: 0,  //[整形]状态码
-  d: {
-    nickname: 'tlwlmy',    // [字符串]用户名
-    headimgurl: 'http'   // [字符串]头像url
-  }
   msg: ''
 }
 ```
