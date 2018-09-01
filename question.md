@@ -1,12 +1,13 @@
 # 问答接口
 
 ##### 1、小程序登陆接口
-url：/mina/login
-request：POST
-|参数|类型|参数说明|是否必须|备注|
-|--|--|--|--|--|
-|code|字符串|微信接口参数|是|微信接口参数|
-|aid|整型|公众号或小程序ID|是||
+url：/mina/login    
+request：POST    
+
+|参数|类型|参数说明|是否必须|备注|    
+|--|--|--|--|--|    
+|code|字符串|微信接口参数|是|微信接口参数|    
+|aid|整型|公众号或小程序ID|是||    
 
 response
 ```
@@ -23,8 +24,9 @@ response
 
 
 ##### 2、小程序基本用户信息上报接口
-url：/mina/user_info_upload?sid={sid}
-request：POST
+url：/mina/user_info_upload?sid={sid}    
+request：POST    
+
 |参数|类型|参数说明|是否必须|备注|
 |--|--|--|--|--|
 |encryptedData|字符串|加密数据|是|	
@@ -44,9 +46,8 @@ response
 
 
 #### 3、查询题目列表
-url：/question/lists
-method：GET
-request
+url：/question/lists    
+request：GET    
 
 |参数|类型|参数说明|是否必须|备注|
 |--|--|--|--|--|
