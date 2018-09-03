@@ -62,7 +62,7 @@ response
     sid: 'abc...',    // [字符串]用户session_id
     candidates: [    // [字符串]候选答案
       {
-        mpoint: 0,    // [整形]大于等于此得分，答案为这个
+        mpoint: 0,    // [整形]小于等于此得分，答案为这个
         anwser: '',    // [字符串]答案
       },
       ...
